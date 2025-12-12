@@ -19,7 +19,7 @@ const Singlepagecrud = () => {
     []);
  
     const fetchUsers = () => {
-      axios.get('https://jsonplaceholder.typicode.com/users')
+      axios.get('https://ultras-backend.onrender.com/users')
         .then(res => setUsers(res.data))
         .catch(err => console.error(err));
     };
@@ -44,7 +44,7 @@ const Singlepagecrud = () => {
  
     const createUser = () => {
       const userData = { name: username, email: email, phone: phone };
-      axios.post("https://jsonplaceholder.typicode.com/users", userData)
+      axios.post("https://ultras-backend.onrender.com/users", userData)
         .then(res => {
           setUsers([...users, res.data]);
           resetForm();
@@ -53,7 +53,7 @@ const Singlepagecrud = () => {
     };
  
     const updateUser = (userId) => {
-      axios.put(`https://jsonplaceholder.typicode.com/users/${userId}`, { name: username, email: email, phone: phone })
+      axios.put(`https://ultras-backend.onrender.com/users/${userId}`, { name: username, email: email, phone: phone })
         .then(res => {
           const updatedUsers = users.map(user => (user.id === userId ? res.data : user));
           setUsers(updatedUsers);
@@ -63,7 +63,7 @@ const Singlepagecrud = () => {
     };
  
     const deleteUser = (userId) => {
-      axios.delete(`https://jsonplaceholder.typicode.com/users/${userId}`)
+      axios.delete(`https://ultras-backend.onrender.com/users/${userId}`)
         .then(() => {
           const updatedUsers = users.filter(user => user.id !== userId);
           setUsers(updatedUsers);

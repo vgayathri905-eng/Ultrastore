@@ -10,7 +10,7 @@ const Edit = () => {
     })
 
     useEffect(()=>{
-     fetch(`http://localhost:6010/getone/${id}`)
+     fetch(`https://ultras-backend.onrender.com/getone/${id}`)
        .then((res)=>res.json())
        .then((data)=>setproductsItems(data))
       },[])
@@ -27,8 +27,8 @@ const Edit = () => {
     const update={title,img,rating,des,price};
     console.log(update);
 
-    
-    fetch(`http://localhost:6010/edit/${id}`,{
+
+    fetch(`https://ultras-backend.onrender.com/edit/${id}`,{
         method:"PATCH",
         headers:{
             'content-type':'application/json'

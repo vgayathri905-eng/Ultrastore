@@ -10,9 +10,10 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Cart from './pages/Cart';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { useDispatch, useSelector } from 'react-redux';
+// import { useDispatch, useSelector } from 'react-redux';
 import GetProducts from './pages/Getproduct';
-import {incrementdresszero,decrementanarkalithree,incrementcholifour}from "./redux/counterslice"
+// import {incrementdresszero,decrementanarkalithree,incrementcholifour}from "./redux/counterslice"
+
 import Upload from './pages/Upload';
 import Edit from './pages/Edit';
 import Register from './pages/Register';
@@ -34,7 +35,7 @@ function App() {
       <BrowserRouter>
         <Navbar hi=" '' TIMELESS STYLE, ENDLESS ELEGANCE '' " />
         <Routes>
-          <Route path='/about' element={
+          <Route path='/' element={
             <ProtectedRoute>
               <About />
 

@@ -22,7 +22,7 @@
 
                 // console.log(dress,"dress in object ");
                 
-                fetch('http://localhost:6010/uploadproduct',{
+                fetch('https://ultras-backend.onrender.com/uploadproduct',{
                     method:"POST",
                     headers:{
                         'Content-Type':'application/json'
