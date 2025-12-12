@@ -1,0 +1,90 @@
+.contact{
+    margin-left: 84px;
+}
+.getpro{
+    margin-left: 94px;
+}
+.dropdown{
+    margin-left: 44px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.nav-item{
+    margin-left: 94px;
+}
+.dropdown{
+    margin-left: 94px;
+}
+.q1{
+    color:grey;
+    margin-left: 44px;
+    font-size: 20px;
+}
+.q2{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 38%;
+}
+.q3{
+   color: gray;
+   padding-left: 92%;
+}
+.about,.contact,.getpro{
+    text-decoration: none;
+    color:black;
+    position: relative;
+    top:5px;
+}
+.fa-regular {
+    color: gray;
+    
+}
+.nav{
+     gap:20px;
+     position: relative;
+     font-family: 'Times New Roman', Times, serif;
+     
+}
+.cas,.formvalidate{
+    color: black;
+    text-decoration: none;
+}
+.western,.upload{
+    color: black;
+    text-decoration: none;
+}
+.cart,.login{
+    color: black;
+    text-decoration: none;
+}
+.street{
+    color: black;
+    text-decoration: none;
+}
+.style,.register{
+    color: black;
+    text-decoration: none;
+}
+.hoodie,.edit{
+    color: black;
+    text-decoration: none;
+}
+.ethnic{
+ margin-right:90px;
+}
+.ship{
+    text-align: center;
+     color: saddlebrown;
+          font-family: 'Times New Roman', Times, serif;
+    
+}
+.navi{
+    margin-left: 50px;
+    margin-right: 50px;
+   /* background-color: whitesmoke; */
+}
+/* .store{
+    margin-right: 10px;
+} */

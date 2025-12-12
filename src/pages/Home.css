@@ -1,0 +1,409 @@
+.view{
+    height: 600px;
+}
+
+.aug{
+    width: 40%;
+}
+.as{
+    position: relative;
+     right:300px;
+}
+.aaaa{
+    height: 500px;
+}
+.para{
+    position: relative;
+    color:grey; 
+    left:50%
+}
+.par{
+    position: relative; 
+    left:25%; width: 50%; 
+    font-weight: bold ;color:grey;
+     font-size: 25px;
+}
+.day{
+    position: relative;
+     left:35%; 
+     font-size: 40px;
+}
+.carousel-item{
+    left:50px;
+}
+.poop{
+     width: 650px;
+     height: 650px;
+      position: relative;
+      bottom:27px;
+}
+.wear{
+    position: relative;
+    left:290px; 
+    top:80px; 
+    width: 25;
+}
+.card-text1{
+    position: relative;
+    left:350px;
+    width: 350px;
+     top:50px;
+}
+.card-title1{
+    position: relative;
+    left:290px;
+     top:50px; 
+     font-weight: bold; 
+     font-size: 55px; 
+     width: 350px;
+}
+.shops{
+      position: relative;
+      left:350px; 
+      top:100px;
+}
+.shoess{
+    width: 80%; 
+    left:110px;
+}
+.qw2,.qwe2,.qwert2{
+    left:50px;
+}
+.lorems{
+    width:40%;
+}
+.selection{
+    font-size:60px; 
+    font-weight: bold;
+    width:40% ;
+}
+.rio{
+    position: relative; 
+    left:300px; 
+    bottom:145px;
+}
+.arrowl{
+    position: relative; 
+    left:300px; 
+    bottom:135px ;
+     gap:15px;
+}
+.arrowr{
+    position: relative; 
+    left:300px; 
+    bottom:135px;
+}
+.quot{
+    height: 150px; 
+    position: relative; 
+    left:70px;
+}
+.quot-text{
+    position: relative; 
+    left:300px; 
+    bottom:150px ;
+     width: 800px; 
+     font-size: 20px;
+}
+.qwe,.qwert1,.qwer1,.qwe1,.qw1,.qwert,.qwer,.qw,.qwe2{
+    left:50px;
+}
+.aa{
+     position: relative;
+     font-weight: bold;
+      font-size: 45px;
+}
+.kite{
+ position: relative;
+  left:70px;
+  font-weight: bold;
+  bottom:30px;
+   font-size: 45px;
+}
+.star{
+     position: relative;
+     font-size: 17px;
+}
+.moon{
+     position: relative;
+     left:10px;
+}
+.sun{
+    width: 80%; 
+    left:110px;
+}
+.pen{
+    position: relative;
+    left:80px;
+     top:40px;
+}
+.hat1{
+    position: relative;
+    left:30px;
+     font-weight: bold; 
+     font-size: 60px;
+}
+.wols{
+     position: relative;
+     left:70px;
+     bottom:40px;
+}
+.itel{
+    width:20px;
+     height: 310px;
+}
+.basicss{
+    position: relative;
+    left:80px; 
+    top:40px;
+}
+.card-title2{
+    position: relative;
+    left:30px; 
+    font-weight: bold; 
+    font-size: 60px;
+}
+.btn8{
+    position: relative;
+     left:70px; 
+     bottom:40px;
+}
+.lock{
+    width:20px;
+    height: 310px; 
+}
+.rest{
+
+     background-size: cover; 
+     height: 600px;
+}
+.btn1,.btn2{
+    position: relative;
+    left:45px;
+}
+.view{
+ padding-left: 70px;
+ gap:15px;
+}
+/* .index{
+    display: flex;
+ flex-direction: row;
+} */
+.btn3:hover{
+ background-color:rgb(231, 225, 225);
+}
+.b1{
+    font-weight: bold;
+    font-size: 100px;
+    width: 50px;
+}
+.a1{
+    font-weight: bold; 
+}
+.card-title{
+    font-size: large;
+ text-transform: uppercase;
+ position: relative;
+ font-size: 80px;
+ font-weight: bold;
+}
+.qw{
+    position: relative;
+    top:50px;   
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.qwe{
+    position: relative;
+    top:95px;
+     font-size: 24px;
+    font-weight: bold;
+}
+.qwer{
+    position: relative;
+    top:95px;
+     font-size: 24px;
+    font-weight: bold;
+}
+.qwert{
+    position: relative;
+    top:95px;
+     font-size: 24px;
+    font-weight: bold;
+}
+.shoe{
+    position: relative;
+    left: 50%;
+}
+.hat{
+    position: relative;
+    top:50%;
+    left: 50%;
+    color:grey;
+}
+.hat1{
+    color: black;
+   font-weight: bold;
+}
+.ss{
+    display: flex;
+ flex-direction: row;
+ position: relative;
+}
+.index1{
+    display: flex;
+ flex-direction: row;
+ margin-left: 50px;
+ margin-right: 60px;
+}
+.index2{
+    display: flex;
+ flex-direction: row;
+ margin-left: 40px;
+ margin-right: 60px;
+}
+.qw{
+    position: relative;
+    top:93px; 
+}
+.qwz{
+    position: relative;
+    top:93px; 
+    right: 50px;
+    position: relative;
+     font-size: 24px;
+    font-weight: bold;
+}
+.qwez{
+    position: relative;
+    top:95px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.qwerz{
+    position: relative;
+    top:95px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.qwertz{
+    position: relative;
+    top:95px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.zzz{
+    position: relative;
+    left:90%;
+    top:30px;
+    text-decoration: none;
+    color: black;
+}
+.zz{
+    position: relative;
+    left:3%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.uu{
+    display: flex;
+    color: black;
+    text-decoration: none;  
+    flex-direction: row;
+    position: relative;
+    left:40px;
+    gap:110px;
+    word-spacing: 10px;
+    font-size: 20px; 
+}
+.index{
+    position: relative;
+    bottom:70px;
+
+}
+.demoo{
+    position: relative;
+    left: 400px;
+    bottom:500px;
+
+}
+.aaaa{
+    display: flex;
+    flex-direction: row; 
+}
+.as{
+    position: relative;
+    top:100px; 
+     font-size: 24px;
+    font-weight: bold;
+}
+.asd{
+    position: relative;
+    bottom:245px;
+    left:90px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.asdf{
+    position: relative;
+    bottom:590px;
+    left:490px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.asi{
+    position: relative;
+    left:80%;
+    text-decoration: none;
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+.vb{
+    display: flex;
+    gap:50px;
+    margin-left: 70px;
+}
+a3{
+    margin-left: 44px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.a2{
+    color: grey;
+    font-size: 15px;
+     margin-left: 44px;
+     font-weight: thin;
+}
+.a4{
+ display: flex;
+ flex-direction: row;
+ gap:76px;
+ padding-left: 25%;
+ position: relative;
+ bottom: 47px;
+}
+.a4:hover{
+    color: aqua;
+}
+.btn4,.btn5,.btn6{
+    position: relative;
+    left:10px;
+
+    bottom:20px;
+}.view{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.demin{
+    margin-right: 2px;
+}
+.war{
+    background-color: lavender;
+}
+
+       

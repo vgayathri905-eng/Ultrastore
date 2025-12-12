@@ -1,0 +1,89 @@
+.customer{
+    color: grey; 
+    text-decoration: none;
+}
+.call{
+    color: black;
+}
+.integer{
+    color:grey;
+}
+.kkkll{
+    color: black;
+}
+.line{
+    color: grey;  
+    text-decoration: none; 
+    position: relative; 
+    margin-left: 40px; 
+}
+.ultra{
+    position: relative;
+     margin-left: 40px;
+      top:10px;
+}
+.ty{
+    color: gray;
+    position: relative;
+    top: 30px;
+}
+.payment{
+    color: gray;
+}
+
+
+.mnb{
+    position: relative;
+    margin-left: 70%;
+    flex-direction: column; 
+}
+.mnbb{
+  position: relative;
+    margin-left: 50%;
+    bottom: 35px;  
+}
+.ever{
+    color: black;
+}
+.forever{
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+}
+.west{
+  width:30%;
+}
+.north{
+    width:20%;
+}
+.car{
+    display: flex;
+    flex-direction: row;
+   gap:13   0px;
+}
+.foots{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.alt{
+    margin-left: 40px;
+}
+.serv{
+    margin-left: 40px;
+}
+.cont{
+     width:20%;
+}
+.conta{
+    width:20%;
+}
+.foots{
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: whitesmoke; */
+}
+
+
