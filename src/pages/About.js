@@ -6,7 +6,7 @@ import image3  from "../images/images/logo.jfif"
 import image4  from "../images/images/logo1.jfif"
 import image5  from "../images/images/logo3.jfif"
 import image6  from "../images/images/logo3.png"
-import { Link } from 'react-router-dom'
+
 const About = () => {
   return (
     <div class="you" >

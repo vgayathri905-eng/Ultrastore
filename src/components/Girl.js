@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Girl.css"
 import girlish from "../constant/girlish"
-import { Link } from 'react-router-dom'
+ 
 import girlish2 from "../constant/girlish2"
 import { useSelector, useDispatch } from 'react-redux'
 import { addTocart, deleteFromCart } from '../redux/cartslice'

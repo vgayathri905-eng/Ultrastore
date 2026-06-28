@@ -13,7 +13,7 @@ const Edit = () => {
      fetch(`https://ultras-backend.onrender.com/getone/${id}`)
        .then((res)=>res.json())
        .then((data)=>setproductsItems(data))
-      },[])
+      },[id])
 
     const handleUpdate=(event)=>{
     event.preventDefault();

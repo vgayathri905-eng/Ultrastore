@@ -22,9 +22,9 @@ const Navbar = (props) => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand"href="#" >
-            <h1 class="store"> </h1>
-          </a>
+          <Link className="navbar-brand" to="/home">
+            <h1 className="store"> </h1>
+          </Link>
            <Link class="ethnic" to="/home"> <img  src={down}  alt="img"/></Link>
             <div class="nav menu ok">
              <Link  class="style" to="/about">ABOUT</Link>
@@ -37,7 +37,7 @@ const Navbar = (props) => {
              <Link class="upload" to="/upload">UPLOAD</Link>
              <Link class="register" to="/register">REG</Link>
              <Link class="login" to="/login">LOGIN </Link>
-             {/* <div class="login" onClick={Logout}>LGOUT</div> */}
+             <div class="login" onClick={Logout}>LGOUT</div>
               <Link class="formvalidate" to="/formvalidate">FORM</Link>
             </div>
         </div>

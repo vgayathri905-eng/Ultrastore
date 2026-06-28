@@ -4,14 +4,10 @@ import cool2 from "../constant/cool2"
 import cool from "../constant/cool"
 import hero from "../images/images/hero-image.jpg"
 
-import sell1 from "../images/images/selling-products1.jpg"
-import sell2 from "../images/images/selling-products2.jpg"
-import sell3 from "../images/images/selling-products3.jpg"
-import sell4 from "../images/images/selling-products4.jpg"
-
+ 
 import modell from "../images/images/model.jpg"
 import image  from "../images/images/images(2).png"
-import { Link } from 'react-router-dom'
+ 
 import { useSelector,useDispatch } from 'react-redux'
 import { addTocart, deleteFromCart } from '../redux/cartslice'
 
@@ -44,7 +40,7 @@ const Coat = () => {
   {
     cool.map((s)=>(
       <div class="card rust">
-   <h1 class="card-"></h1>
+   <h1 class="card-title visually-hidden">{s.des}</h1>
  
     <img src={s.img} class="card-img-top" alt="img"/>
           <div class="card-footer ">

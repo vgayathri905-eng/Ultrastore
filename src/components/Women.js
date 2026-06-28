@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Women.css"
 import stylidhdata from '../constant/stylishdata'
-import { Link } from 'react-router-dom'
+ 
 import stylish2data from '../constant/stylish2data'
 import { useSelector,useDispatch } from 'react-redux'
 import { addTocart, deleteFromCart } from '../redux/cartslice'

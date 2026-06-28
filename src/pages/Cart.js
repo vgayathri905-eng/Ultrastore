@@ -27,9 +27,8 @@ const Cart = () => {
             <div className='row'>
              {
       cartitems.map((s)=>(
-      <div class=" col-4 card rust">
-   <h1 class="card-"></h1>
-    <img src={s.img} class="card-img-top" alt="img"/>
+      <div className="col-4 card rust">
+    <img src={s.img} className="card-img-top" alt="img"/>
           <div class="card-footer ">
  <center><br/>  
       <h3>{s.des}</h3>

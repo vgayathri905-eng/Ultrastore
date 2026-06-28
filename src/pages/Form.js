@@ -5,7 +5,7 @@ import modern1 from '../constant/modern1'
 import video from "../images/images/video-image.jpg"
 import video1 from "../images/images/banner1.jpg"
 import video2 from "../images/images/banner2.jpg"
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { useSelector,useDispatch } from 'react-redux'
 import { addTocart, deleteFromCart } from '../redux/cartslice'
 
@@ -70,7 +70,7 @@ const Form = () => {
     {
         modern.map((e)=>(
           <div class="card over">
-        <h5 class="card-title"></h5><br/>
+        <h5 class="card-title">Product</h5><br/>
        <img src={e.img} class="card img-top" alt="img"/>
        <div class="card-body"><center>
     <h4>{e.des}</h4>
