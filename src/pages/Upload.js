@@ -1,7 +1,7 @@
     import React from 'react'
     import "./Upload.css"
     import { ToastContainer ,toast } from 'react-toastify';
-    import { useEffect } from 'react';
+   
 
     const Upload = () => {
         const handleSubmit=(event)=>{
