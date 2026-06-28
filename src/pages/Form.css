@@ -1,0 +1,21 @@
+.user{
+    text-align: center;
+  
+}
+.sun{
+    color: black;
+}
+.form{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.plan{
+    margin-left: 45px;
+    
+}
+.over,.user{
+    background-color: lavender;
+}
+.m{
+    font-family: 'Times New Roman', Times, serif;
+}
